@@ -84,6 +84,9 @@ resource "aws_security_group" "elb_security_group" {
         description = "Allow web traffic to load balancer"
     }
 
+
+
+#--------all------
     egress {
         form_port  = 0
         protocol   = "-1"
