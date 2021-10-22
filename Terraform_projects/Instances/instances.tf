@@ -87,6 +87,7 @@ resource "aws_security_group" "elb_security_group" {
 
 
 #--------all------
+#--------one------
     egress {
         form_port  = 0
         protocol   = "-1"
